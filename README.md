@@ -5,65 +5,14 @@
 ```
 Step 1: Clone this repository
 
-$ git clone https://github.com/var-rishabh/green-guardian
+$ git clone https://github.com/YashodipJagtap/Green-Grid.git
 ```
 
 ```
 Step 2: Move to main folder
 
-$ cd green-guardian
-```
-
-
-### For Frontend
-```
-Step 1: Move to client folder
-
-$ cd client
-```
-
-```
-Step 2: Download all the npm packages
-
-$ npm install
-```
-
-```
-Step 3: Setup your .env file
-```
-
-```
-Step 4: Run the server in development mode
-
+$ cd Green Grid
+ 
 $ npm run dev
-```
 
 
-### For Backend
-```
-Step 1: Move to server folder
-
-$ cd server
-```
-
-```
-Step 2: Download all the npm packages
-
-$ npm install
-```
-
-```
-Step 3: Setup your .env file
-```
-
-```
-Step 4: Run the server in development mode
-
-$ npm run dev
-```
-
-https://resend.com/emails
-
-
-
-REACT_APP_GEMINI_API_KEY=AIzaSyBBoAl-ULjkzIGdT8PkOQopB0iwHXRGmSM
