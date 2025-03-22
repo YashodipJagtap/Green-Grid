@@ -37,6 +37,7 @@ const Error = () => {
                     </div>
                     <div className="h-full w-1/3 bg-gradient-to-b from-[#FFFFFF14] to-[#C4C4C400]" />
                 </div>
+                <Footer />
             </section>
         </>
     );
