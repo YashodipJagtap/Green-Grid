@@ -45,7 +45,7 @@ const Edumpers = () => {
     // Calculate points based on size and weight
     const calculatePoints = async () => {
         try {
-            const response = await fetch("http://localhost:5000/api/calculate-points", {
+            const response = await fetch("https://green-grid-backend.vercel.app/api/calculate-points", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -63,7 +63,7 @@ const Edumpers = () => {
     // Validate coupon code
     const handleSubmit = async () => {
         try {
-            const response = await fetch("http://localhost:5000/api/validate-coupon", {
+            const response = await fetch("https://green-grid-backend.vercel.app/api/validate-coupon", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -105,7 +105,7 @@ const Edumpers = () => {
             formData.append("email", userDetails.email);
             formData.append("proof", userDetails.proof);
 
-            const response = await fetch("http://localhost:5000/api/submit-delivery", {
+            const response = await fetch("https://green-grid-backend.vercel.app/api/submit-delivery", {
                 method: "POST",
                 body: formData,
             });
