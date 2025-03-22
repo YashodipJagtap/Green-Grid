@@ -15,7 +15,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "https://green-grid-web.vercel.app", // Allow requests from your frontend
+    origin: "http://localhost:5173", // Allow requests from your frontend
     credentials: true,
 }));
 dotenv.config();
